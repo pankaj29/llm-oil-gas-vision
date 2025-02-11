@@ -1,0 +1,17 @@
+---
+config:
+  layout: fixed
+  theme: neutral
+---
+flowchart TD
+    B["Import &amp; Install<br>Dependencies"] --> C["Mount Google Drive<br>&amp; Set Paths"]
+    C --> D["Load CSV Files<br>Train, Val, Test"]
+    D --> E["Oversample Minority Class<br>Random Oversampling"]
+    E --> F["Create tf.data Datasets<br>Parsing &amp; Augmentation"]
+    F --> G["Define Plot Functions<br>Loss, Accuracy, Confusion Matrix"]
+    G --> H["Define Hyperparameter Tuner<br>build_model"]
+    H --> I["Train &amp; Evaluate<br>Multiple CNN Models"]
+    I --> J["Threshold Tuning<br>Best Threshold Selection"]
+    J --> K["ChatGPT-4 Vision Classification"]
+    K --> L["Ensemble Classifier<br>Majority Vote"]
+    L --> M["Save Plots, Predictions,<br>Metrics, Logs"]

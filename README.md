@@ -1,2 +1,5 @@
 # llm-oil-gas-vision
-123
+Classification
+Voting Classifier
+Image Anomaly Approach
+Few Shots Approach

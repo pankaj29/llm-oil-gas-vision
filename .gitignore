@@ -1,0 +1,3 @@
+# Ignore all files in Data/images and Data/images-backup directories
+Data/*
+*.h5
